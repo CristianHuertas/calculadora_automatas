@@ -2,6 +2,16 @@
 
 Una aplicación web interactiva desarrollada con Streamlit para realizar operaciones con lenguajes formales, conjuntos, alfabetos y palabras.
 
+## 🌐 Repositorio GitHub
+📂 **Repositorio oficial**: https://github.com/CristianHuertas/calculadora_automatas.git
+
+## ⚡ Inicio Rápido
+
+1. 📎 **Descargar**: Clona o descarga este repositorio
+2. 🔄 **Ejecutar**: Haz doble clic en `ejecutar.bat`
+3. 🌐 **Usar**: Se abre automáticamente en tu navegador
+4. 🎉 **¡Listo!**: Ya puedes usar la calculadora
+
 ## ✨ Funcionalidades
 
 ### 📊 Operaciones con Conjuntos/Alfabetos
@@ -30,30 +40,39 @@ Una aplicación web interactiva desarrollada con Streamlit para realizar operaci
 ## 🚀 Instalación y Uso
 
 ### Prerrequisitos
-- Python 3.8 o superior
-- pip (gestor de paquetes de Python)
+- **Python 3.8 o superior** (descarga desde https://python.org)
+- Asegúrate de marcar **"Add to PATH"** durante la instalación de Python
 
 ### Instalación
 
-1. **Clonar o descargar el proyecto**
+1. **Descargar el proyecto**
    ```bash
-   # Si tienes el proyecto en un directorio
+   # Clonar desde GitHub
+   git clone https://github.com/CristianHuertas/calculadora_automatas.git
    cd calculadora_automatas
+   
+   # O descargar directamente desde GitHub como ZIP
    ```
 
-2. **Instalar dependencias**
+2. **🎯 MÉTODO MÁS FÁCIL: Ejecutar directamente**
+   - **Hacer doble clic en `ejecutar.bat`** ✨
+   - El script instalará automáticamente las dependencias si es necesario
+   - La aplicación se abrirá automáticamente en tu navegador
+
+3. **Métodos alternativos**
    ```bash
+   # Opción 1: PowerShell
+   .\ejecutar.ps1
+   
+   # Opción 2: Instalación manual
    pip install -r requirements.txt
-   ```
-
-3. **Ejecutar la aplicación**
-   ```bash
    streamlit run app.py
    ```
 
-4. **Abrir en el navegador**
-   - La aplicación se abrirá automáticamente en `http://localhost:8501`
+4. **Acceder a la aplicación**
+   - 🌐 La aplicación se abrirá automáticamente en `http://localhost:8501`
    - Si no se abre automáticamente, copia esa URL en tu navegador
+   - ⛔ Para cerrar: presiona `Ctrl+C` en la ventana de comandos
 
 ## 📖 Guía de Uso
 
